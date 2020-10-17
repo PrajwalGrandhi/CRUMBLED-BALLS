@@ -67,7 +67,7 @@ function keyPressed()
 {
   if(keyDown(UP_ARROW))
   {
-   Matter.Body.applyForce(b,b.position,{x:90,y:-100});
+   Matter.Body.applyForce(b,b.position,{x:10,y:-10});
     
   }
 }
